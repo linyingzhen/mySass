@@ -1,6 +1,9 @@
 sass -w style.scss:style.css --style expanded --sourcemap
+
 sass -w style.scss:style.css --style compressed
+
 sass -w style.sass:style.css --style expanded
+
 sass -w style.sass:style.css --style compressed
 
 
