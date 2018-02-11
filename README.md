@@ -1,3 +1,9 @@
+#批量文件目录生成
+
+sass -w aa:bb -t compressed -C --sourcemap=none
+
+#单文件生成
+
 sass -w a.scss:a.css -t compressed -C --sourcemap=none
 
 sass -w b.sass:b.css -t compressed -C --sourcemap=none
