@@ -1,3 +1,7 @@
+sass -w a.scss:a.css -t compressed -C --sourcemap=none
+
+sass -w b.sass:b.css -t compressed -C --sourcemap=none
+
 sass -w style.scss:style.css --style expanded --sourcemap
 
 sass -w style.scss:style.css --style compressed
